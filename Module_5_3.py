@@ -7,7 +7,6 @@ class House:
         return self.number_of_floors
 
     def __str__(self):
-        # f 'Название: {self.name}, кол-во этажей: {self.number_of_floors}'
         return f"Название: {self.name}, количество этажей: {self.number_of_floors}"
 
     def __eq__(self, other):
